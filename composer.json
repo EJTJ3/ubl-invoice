@@ -1,0 +1,29 @@
+{
+    "name": "ejtj3/ubl-invoice",
+    "autoload": {
+        "psr-4": {
+            "EJTJ3\\Ubl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evert Jan Hakvoort",
+            "email": "evertjan@hakvoort.io"
+        }
+    ],
+    "require": {
+        "jms/serializer": "^3.17"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.8",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EJTJ3\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
